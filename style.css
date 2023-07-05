@@ -1,0 +1,712 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+* .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+* .icon {
+  margin: -40px;
+  margin-top: 1px;
+}
+* .break {
+  flex-basis: 100%;
+  height: 0;
+  text-align: center;
+  margin-top: -70px;
+}
+* .underText {
+  color: orange;
+  font-size: 12px;
+  margin-top: -15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+* .iconText {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -20px;
+}
+* .icon a {
+  text-decoration: none;
+}
+* .icon a:hover {
+  color: rgb(129, 187, 206);
+}
+* .ipad1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+* .image1 {
+  height: 700px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+* .iconimages {
+  height: 75px;
+}
+* .break p {
+  padding-top: 45px;
+}
+* .ipad1text {
+  text-align: center;
+  margin-top: 200px;
+}
+* .ipad1text a {
+  text-decoration: none;
+  color: rgb(75, 108, 225);
+  font-size: 18px;
+}
+* .ipad1text a:hover {
+  text-decoration: underline;
+}
+* .ipad1text p {
+  font-weight: 400;
+}
+* .ipad1text h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin: -30px;
+}
+* .ipad1text .prisText {
+  font-size: 18px;
+}
+* .ipad1text h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+* .buyButton {
+  border-radius: 20px;
+  padding: 6px;
+  width: 65px;
+  height: 40px;
+  color: white;
+  background: rgb(75, 108, 225);
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+* .buyButton:hover {
+  background: rgb(94, 126, 241);
+}
+* .ipad2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+* .ipad2 .black {
+  height: 700px;
+  margin-left: 500px;
+  cursor: pointer;
+}
+* .ipad2 .blackBackground {
+  height: 700px;
+  background: black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+* .ipad2 .blackBackground div {
+  position: absolute;
+  left: 470px;
+}
+* .ipad2 h2,
+* .ipad2 h4,
+* .ipad2 p {
+  color: white;
+}
+* .ipad2 h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: -30px;
+}
+* .ipad2 h4 {
+  font-size: 25px;
+  margin-bottom: -2px;
+}
+* .ipad2 .underText2 {
+  color: orange;
+  font-size: 14px;
+  margin-bottom: -50px;
+}
+* .ipad2 img {
+  height: 45px;
+}
+* .ipad2 a:hover {
+  text-decoration: underline;
+}
+* .ipad2 a {
+  color: rgb(75, 108, 225);
+  text-decoration: none;
+}
+* .ipad2 a p {
+  color: rgb(75, 108, 225);
+}
+
+.icon {
+  height: 200px;
+}
+
+.icons2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.icons2 h2 {
+  font-size: 55px;
+  padding-bottom: 50px;
+  margin-top: 120px;
+}
+.icons2 img {
+  height: 16em;
+  margin-left: -60px;
+  margin-right: -60px;
+}
+.icons2 hr {
+  width: 900px;
+  background-color: rgb(208, 200, 200);
+}
+.icons2 .grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: o;
+  grid-template-rows: 150px 50px 100px;
+  grid-row-gap: 150px;
+}
+.icons2 .grid h4 {
+  font-size: 20px;
+}
+.icons2 .grid p {
+  font-weight: 500;
+}
+.icons2 .grid button {
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+  width: 45px;
+}
+.icons2 .grid a {
+  text-decoration: none;
+  color: rgb(75, 108, 225);
+}
+.icons2 .grid a:hover {
+  text-decoration: underline;
+}
+.icons2 .grid .ipad-a-text {
+  color: rgb(75, 108, 225);
+  font-weight: 500;
+}
+.icons2 hr {
+  width: 85%;
+}
+.icons2 .ipad-text {
+  margin: 20px;
+}
+.icons2 .ipad-content p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.ipad-models-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ipad-models {
+  text-decoration: none;
+  color: rgb(0, 148, 242);
+  font-size: 20px;
+  padding: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.ipad-present {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.present-background {
+  background: rgb(1, 1, 42);
+  width: 1370px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.present-background .present-img {
+  height: 100px;
+}
+.present-background .present-img2 {
+  height: 500px;
+}
+.present-background h2 {
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -35px;
+}
+.present-background p {
+  color: white;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.present-background a {
+  color: rgb(0, 148, 242);
+  text-decoration: none;
+  font-size: 20px;
+}
+.present-background a:hover {
+  text-decoration: underline;
+}
+.present-background .present-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.ipads-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.ipads-text h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+.ipads-text p {
+  margin-top: -10px;
+  font-size: 19px;
+}
+.ipads-text a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 148, 242);
+}
+.ipads-text a:hover {
+  text-decoration: underline;
+}
+.ipads-text .ipads-image {
+  margin-top: 15px;
+}
+.ipads-text img {
+  height: 360px;
+}
+
+.ipad-options {
+  display: flex;
+  justify-content: center;
+}
+.ipad-options h4 {
+  font-size: 20px;
+}
+.ipad-options p {
+  margin-top: -20px;
+  font-size: 18px;
+}
+.ipad-options a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 148, 242);
+}
+.ipad-options a:hover {
+  text-decoration: underline;
+}
+
+.options-text {
+  text-align: center;
+  margin: 20px;
+  margin-top: 100px;
+}
+.options-text i {
+  font-size: 45px;
+}
+
+.ipad-accessories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.ipad-accessories a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 148, 242);
+}
+.ipad-accessories a:hover {
+  text-decoration: underline;
+}
+.ipad-accessories p {
+  font-size: 20px;
+  margin-top: -20px;
+}
+.ipad-accessories h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.ipad-accessories .accessory {
+  width: 800px;
+  height: 748px;
+}
+.ipad-accessories .pencil {
+  width: 800px;
+  height: 100%;
+  margin-top: 100px;
+}
+.ipad-accessories figure {
+  margin: auto;
+}
+
+.accessory2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.accessory2 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 148, 242);
+}
+.accessory2 a:hover {
+  text-decoration: underline;
+}
+.accessory2 p {
+  font-size: 20px;
+  margin-top: -20px;
+}
+.accessory2 h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 100px;
+}
+.accessory2 img {
+  height: 440px;
+}
+
+.ipad-present {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.present-background {
+  background: rgb(1, 1, 42);
+  width: 1370px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.present-background .present-img {
+  height: 100px;
+}
+.present-background .present-img2 {
+  height: 500px;
+}
+.present-background h2 {
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -35px;
+}
+.present-background p {
+  color: white;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.present-background a {
+  color: rgb(0, 148, 242);
+  text-decoration: none;
+  font-size: 20px;
+}
+.present-background a:hover {
+  text-decoration: underline;
+}
+.present-background .present-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.ipads-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.ipads-text h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+.ipads-text p {
+  margin-top: -10px;
+  font-size: 19px;
+}
+.ipads-text a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 148, 242);
+}
+.ipads-text a:hover {
+  text-decoration: underline;
+}
+.ipads-text .ipads-image {
+  margin-top: 15px;
+}
+.ipads-text img {
+  height: 360px;
+}
+
+.ipad-options {
+  display: flex;
+  justify-content: center;
+}
+
+.footer,
+.container,
+.row,
+.footer-col,
+.footer-col2 .header,
+.list,
+.text2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.footer ul,
+.container ul,
+.row ul,
+.footer-col ul,
+.footer-col2 .header ul,
+.list ul,
+.text2 ul {
+  list-style: none;
+}
+.footer a,
+.container a,
+.row a,
+.footer-col a,
+.footer-col2 .header a,
+.list a,
+.text2 a {
+  text-decoration: none;
+  color: rgb(92, 90, 90);
+}
+.footer a:hover,
+.container a:hover,
+.row a:hover,
+.footer-col a:hover,
+.footer-col2 .header a:hover,
+.list a:hover,
+.text2 a:hover {
+  text-decoration: underline;
+}
+.footer h4,
+.container h4,
+.row h4,
+.footer-col h4,
+.footer-col2 .header h4,
+.list h4,
+.text2 h4 {
+  color: rgb(62, 60, 60);
+  margin-bottom: 8px;
+  margin-right: 100px;
+  padding-top: 18px;
+  font-weight: 600;
+}
+.footer .row,
+.container .row,
+.row .row,
+.footer-col .row,
+.footer-col2 .header .row,
+.list .row,
+.text2 .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 180px;
+}
+.footer li,
+.container li,
+.row li,
+.footer-col li,
+.footer-col2 .header li,
+.list li,
+.text2 li {
+  margin-bottom: 10px;
+}
+.footer .container,
+.container .container,
+.row .container,
+.footer-col .container,
+.footer-col2 .header .container,
+.list .container,
+.text2 .container {
+  max-width: 1170px;
+  margin: auto;
+}
+.footer .footer,
+.container .footer,
+.row .footer,
+.footer-col .footer,
+.footer-col2 .header .footer,
+.list .footer,
+.text2 .footer {
+  background: rgb(227, 225, 233);
+}
+.footer .break,
+.container .break,
+.row .break,
+.footer-col .break,
+.footer-col2 .header .break,
+.list .break,
+.text2 .break {
+  flex-basis: 100%;
+  height: 0;
+  text-align: center;
+}
+.footer .a2,
+.container .a2,
+.row .a2,
+.footer-col .a2,
+.footer-col2 .header .a2,
+.list .a2,
+.text2 .a2 {
+  color: blue;
+}
+.footer .horizontal-line2,
+.container .horizontal-line2,
+.row .horizontal-line2,
+.footer-col .horizontal-line2,
+.footer-col2 .header .horizontal-line2,
+.list .horizontal-line2,
+.text2 .horizontal-line2 {
+  display: flex;
+  width: 900px;
+  height: 1px;
+  background-color: rgb(208, 200, 200);
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+.footer .horizontal-line,
+.container .horizontal-line,
+.row .horizontal-line,
+.footer-col .horizontal-line,
+.footer-col2 .header .horizontal-line,
+.list .horizontal-line,
+.text2 .horizontal-line {
+  display: flex;
+  width: 900px;
+  height: 1px;
+  background-color: rgb(208, 200, 200);
+  margin-top: 8px;
+  margin-bottom: 15px;
+  margin-left: 220px;
+}
+.footer .horizontal-line i,
+.container .horizontal-line i,
+.row .horizontal-line i,
+.footer-col .horizontal-line i,
+.footer-col2 .header .horizontal-line i,
+.list .horizontal-line i,
+.text2 .horizontal-line i {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.footer .horizontal-line p,
+.container .horizontal-line p,
+.row .horizontal-line p,
+.footer-col .horizontal-line p,
+.footer-col2 .header .horizontal-line p,
+.list .horizontal-line p,
+.text2 .horizontal-line p {
+  margin-left: 20px;
+}
+.footer .horizontal-line a:hover,
+.container .horizontal-line a:hover,
+.row .horizontal-line a:hover,
+.footer-col .horizontal-line a:hover,
+.footer-col2 .header .horizontal-line a:hover,
+.list .horizontal-line a:hover,
+.text2 .horizontal-line a:hover {
+  color: black;
+}
+.footer .text2,
+.container .text2,
+.row .text2,
+.footer-col .text2,
+.footer-col2 .header .text2,
+.list .text2,
+.text2 .text2 {
+  margin-right: 10px;
+  padding-bottom: 20px;
+  margin-top: -18px;
+}
+.footer p,
+.container p,
+.row p,
+.footer-col p,
+.footer-col2 .header p,
+.list p,
+.text2 p {
+  color: rgb(92, 90, 90);
+}
+
+.footer-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 190px;
+}
+.footer-col2 li {
+  list-style-type: numbers;
+  list-style-position: outside;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    padding-left: 10px;
+    margin-left: 0;
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
